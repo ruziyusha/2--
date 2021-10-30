@@ -32,6 +32,7 @@ int main()
 	print_array(N, mas);
 	masrandom(N, mas);
 	print_array(N, mas);
+	delete mas;
 
 
 	system("pause");
