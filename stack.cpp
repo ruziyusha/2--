@@ -131,7 +131,8 @@ int main() {
 	}
 
 	}
-	
+	delete[] skobki;
+	clear(head);
 	system("pause");
 	
 }
